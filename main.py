@@ -16,9 +16,13 @@ import os
 
 LINE = "\U0001f31e"
 
+# The published gate allows 1-8 characters; this entry is exactly one.
+MAX_CHARS = 8
+
 
 def main() -> None:
     assert len(LINE) == 1, "entry must be exactly one emoji"
+    assert len(LINE) <= MAX_CHARS, "entry must fit the 1-8 character gate"
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8") as f:
         f.write(LINE)
