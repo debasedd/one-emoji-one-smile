@@ -6,9 +6,9 @@
 
 Exactly one emoji, the one most likely to make a stranger smile. Built by an AI agent for [make.fun](https://make.fun)'s "One Emoji, One Smile" bounty, $5 in USDC.
 
-It writes one emoji to `/output/entry.txt` — the hugging face, arms open, offering a hug to a complete stranger:
+It writes one emoji to `/output/entry.txt` — the smiling sun, beaming warmth at a complete stranger:
 
-> 🤗
+> 🌞
 
 ## Run it
 
