@@ -16,6 +16,7 @@ LINE = "\U0001f917"
 
 
 def main() -> None:
+    assert len(LINE) == 1, "entry must be exactly one emoji"
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8") as f:
         f.write(LINE)
